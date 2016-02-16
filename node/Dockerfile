@@ -10,14 +10,15 @@ FROM    ubuntu
 # File Author / Maintainer
 MAINTAINER Toon Lamberigts
 
-# Install Node.js and other dependencies
+# Install Node.js and npm
 RUN apt-get update && \
     apt-get -y install nodejs  && \
     apt-get -y install nodejs-legacy && \
     apt-get -y install npm
 
-# Install REDIS
-RUN npm install -y redis
+# Install app dependencies
+RUN npm install -y redis && \
+    npm install -y express
 
 # Expose port
 EXPOSE  8080
