@@ -11,15 +11,15 @@ node1:
     build: ./node
     links:
         - redis
-    ports:
-        - "8080"
+    expose:
+        - "3000"
 node2:
     container_name: node2
     build: ./node
     links:
         - redis
-    ports:
-        - "8080"
+    expose:
+        - "3000"
 redis:
     container_name: redis
     image: redis

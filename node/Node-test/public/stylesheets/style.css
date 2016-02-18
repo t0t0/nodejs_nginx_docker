@@ -1,0 +1,71 @@
+body {
+  padding-bottom: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.panel {
+  border-radius: 0;
+}
+input.form-control {
+  border-radius: 0;
+}
+.btn {
+  margin-top: 30px;
+  border-radius: 0;
+}
+button#stitch-button,
+a.btn.add-img,
+a.btn.add-gif {
+  margin: 10px auto;
+}
+.slider.slider-horizontal {
+  width: 100%;
+  height: 50px;
+}
+.slider-selection {
+  background-color: #3c3c3c;
+  background-image: none;
+  border-radius: 0;
+}
+.slider-track {
+  background-image: none;
+  background-color: #ccc;
+  border-radius: 0;
+}
+.slider.slider-horizontal .slider-track {
+  height: 50px;
+}
+.slider-handle {
+  height: 58px;
+}
+.slider-handle.round {
+  border-radius: 0;
+  background-color: #337ab7;
+}
+.slider-label {
+  height: 50px;
+  top: 15px;
+}
+.slider-label b {
+  top: 20px;
+  position: relative;
+  left: -16px;
+}
+
+#gif-container .gif-holder,
+#gif-container .stitched-gif-holder {
+  margin-bottom: 15px;
+}
+img.gif-click {
+  border: 5px solid #fff;
+}
+
+.form-control.duration {
+  width: 22%;
+  margin-left: auto;
+  margin-right: auto;
+}

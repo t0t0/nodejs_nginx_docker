@@ -1,0 +1,43 @@
+input[type=file] {
+    border:solid 1px #579;
+    background:#f0faff;
+    width:100%;
+    font-size:1.15em;
+    padding:3.15em 2.5em;
+    transition:.25s;
+    box-shadow:inset 0 0 6px 3px rgba(0,110,190,.1);
+    cursor:pointer;
+}
+input[type=file]:hover {
+    border:solid 1px #258;
+    background:#e5f8fb;
+    box-shadow:inset 0 0 6px 3px rgba(0,110,190,.5);
+}
+.lead {
+    margin-top: 20px;
+}
+input {
+    margin-top: 10px;
+}
+div.divider {
+    width: 100%;
+    margin: 25px 0;
+    border: 1px solid #6c6c6c;
+}
+input#cancel {
+    margin-top: 10px;
+}
+input.btn.width {
+    width: 100%;
+    font-size: 1.25em;
+    line-height: 2;
+    margin-top: 0;
+}
+a#skip-upload {
+    font-size: 1.25em;
+    line-height: 2;
+    margin-top: 35px;
+}
+div#required {
+    margin-top: 10px;
+}
